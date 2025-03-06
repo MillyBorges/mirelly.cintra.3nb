@@ -64,7 +64,7 @@ impl<T> Drop for Queue<T> {
     }
 }
 
-// src/lib.rs
+// src/main.rs
 // Esse código será compilado e executado somente ao testar.
 #[cfg(test)]
 mod tests {// Traz para o módulo as definições do escopo anterior para o teste.
